@@ -77,11 +77,12 @@ class EspectroNEC:
         
         import numpy as np
 
+        valores = 100
         Tc = self.tc()
-        x_values_1 = np.linspace(0, Tc, 100)
+        x_values_1 = np.linspace(0, Tc, valores)
         meceta = self.n * self.Z * self.Fa
-        y_values_1 = np.repeat(meceta, 100)
-        x_values_2 = np.linspace(Tc, 2.4, 100)
+        y_values_1 = np.repeat(meceta, valores)
+        x_values_2 = np.linspace(Tc, 2.4, valores)
         y_values_2 = self.n * self.Z * self.Fa *  ((Tc/ x_values_2) ** self.r)
 
         x_values = list(x_values_1) + list(x_values_2)

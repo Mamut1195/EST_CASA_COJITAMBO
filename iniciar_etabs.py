@@ -62,5 +62,7 @@ SapModel = myETABSObject.SapModel
 #establece las unidades a kgf_mm_C
 SapModel.SetPresentUnits(7)
 
+
+
 print('Modelo iniciado con las unidades : kgf_mm_C,\
       Camabiar de ser necesario')
