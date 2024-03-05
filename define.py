@@ -141,8 +141,6 @@ class LoadPatternsNEC15:
     def CargaViento(self):
         return(SapModel.LoadPatterns.SetLoadType('Viento',6))
     
-class LoadCasesNEC15:
-    
 
 class LoadCombinacionesNEC15:
     def __init__(self, Carga_viva:int, Carga_muerta:int, Carga_viva_cubierta:int, Carga_de_granizo:int, Carga_de_viento:int ):
