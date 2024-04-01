@@ -1,0 +1,124 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc} % Codificación UTF-8 para caracteres latinos
+\usepackage[T1]{fontenc} % Codificación de la fuente para caracteres acentuados
+\usepackage[spanish]{babel} % Idioma español
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{pagecolor} % Paquete para cambiar el color de fondo de la página
+\usepackage{enumitem}
+
+% Definir un nuevo color personalizado
+\definecolor{azulportada}{RGB}{0,25,51} % Color azul RGB
+
+% Paquetes básicos
+\usepackage{amsmath} % Paquete matemático
+\usepackage{amsfonts} % Fuentes matemáticas
+\usepackage{amssymb} % Símbolos matemáticos
+\usepackage{graphicx} % Inclusión de gráficos
+\usepackage{float} % Control de posición de figuras y tablas
+\usepackage{hyperref} % Enlaces hipertexto
+\usepackage{geometry} % Configuración de márgenes y tamaño del papel
+
+
+% Definir información de la portada
+\title{Título del Documento}
+\author{Jonnathan Torres Vázquez}
+\date{\today}
+
+% Configuración de márgenes
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\pagecolor{azulportada}
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north west, inner sep=10pt] at (current page.north west) {\includegraphics[width=1.5cm]{ICONO2i.png}};
+    \end{tikzpicture}
+
+    \vfill
+    \begin{center}
+        % Título
+        \vspace{5cm}
+        {\Huge \textbf{Memoria De Cálculo Estructural Para El Proyecto 'Casa Cojitambo'} \par}
+
+        \vspace{15cm}
+        {\Large MAMPRO SAS - Abril 2024 \par}
+        
+    \end{center}
+    \vfill
+\end{titlepage}
+
+% Restablecer el color de fondo a blanco
+\pagecolor{white}
+
+\section{Introducción}
+El presente proyecto estructural tiene como objetivo el diseño y análisis de una casa de un piso ubicada en la parroquia Cojitambo, en el cantón Azogues, Ecuador. Esta región, caracterizada por su belleza natural y su contexto geográfico particular, presenta desafíos específicos en términos de diseño y construcción para garantizar la seguridad y estabilidad de las estructuras ante las condiciones locales.
+
+La casa de un piso se diseñará cumpliendo con las normativas y regulaciones de construcción ecuatorianas vigentes, garantizando la resistencia sísmica adecuada y considerando las cargas gravitacionales y de viento pertinentes para esta ubicación geográfica. Además, se utilizará el software ETABS en conjunto con Python, aprovechando su potencial para la modelización, análisis y optimización de estructuras, así como su capacidad para interactuar con la API de ETABS.
+
+El desarrollo de este proyecto implica una cuidadosa planificación y un análisis detallado, con el fin de asegurar la integridad estructural y la durabilidad de la vivienda, proporcionando un entorno seguro y confortable para sus futuros ocupantes.
+
+\subsection{Objetivos}
+\begin{enumerate}[label = \alph*]
+    \item Diseñar una estructura residencial segura y funcional que cumpla con las normativas y regulaciones de construcción ecuatorianas aplicables, garantizando la seguridad de los ocupantes.
+    \item Optimizar el diseño estructural para maximizar la eficiencia en el uso de materiales y recursos, asegurando un balance adecuado entre costo, resistencia y durabilidad.
+    \item Integrar consideraciones sísmicas específicas para la región de Cojitambo, utilizando técnicas de análisis avanzadas para evaluar y mitigar los efectos de los movimientos telúricos en la estructura.
+    \item Implementar prácticas sostenibles de construcción que minimicen el impacto ambiental del proyecto, incluyendo la selección de materiales ecoamigables y soluciones de diseño que fomenten la eficiencia energética.
+    \item Utilizar herramientas computacionales como el software ETABS y Python para modelar, analizar y optimizar la estructura, aprovechando las ventajas de la tecnología para mejorar la precisión y la eficacia del proceso de diseño.
+    \item Colaborar estrechamente con otros profesionales involucrados en el proyecto, como arquitectos, ingenieros civiles y contratistas, para garantizar la coherencia y la integración de los aspectos estructurales con el diseño arquitectónico y los requisitos de construcción.
+    \item Proporcionar documentación detallada y clara, incluyendo planos, cálculos y especificaciones técnicas, que sirva como guía para la construcción y el mantenimiento de la estructura a lo largo de su vida útil.
+\end{enumerate}
+
+\subsection{Normativa y Regulaciones Aplicables}
+\begin{enumerate}
+    \item  Diseñar una estructura residencial segura y funcional que cumpla con las normativas y regulaciones de construcción ecuatorianas aplicables, garantizando la seguridad de los ocupantes.
+
+    \item Optimizar el diseño estructural para maximizar la eficiencia en el uso de materiales y recursos, asegurando un balance adecuado entre costo, resistencia y durabilidad.
+
+    \item Integrar consideraciones sísmicas específicas para la región de Cojitambo, utilizando técnicas de análisis avanzadas para evaluar y mitigar los efectos de los movimientos telúricos en la estructura.
+
+    \item Implementar prácticas sostenibles de construcción que minimicen el impacto ambiental del proyecto, incluyendo la selección de materiales ecoamigables y soluciones de diseño que fomenten la eficiencia energética.
+
+    \item Utilizar herramientas computacionales como el software ETABS y Python para modelar, analizar y optimizar la estructura, aprovechando las ventajas de la tecnología para mejorar la precisión y la eficacia del proceso de diseño.
+
+    \item Colaborar estrechamente con otros profesionales involucrados en el proyecto, como arquitectos, ingenieros civiles y contratistas, para garantizar la coherencia y la integración de los aspectos estructurales con el diseño arquitectónico y los requisitos de construcción.
+
+    \item Proporcionar documentación detallada y clara, incluyendo planos, cálculos y especificaciones técnicas, que sirva como guía para la construcción y el mantenimiento de la estructura a lo largo de su vida útil.
+\end{enumerate}
+
+Por supuesto, es importante mencionar que además de la Norma Ecuatoriana de la Construcción NEC-15, se emplearán normativas internacionales reconocidas como la ACI 19 (American Concrete Institute) y la AISC (American Institute of Steel Construction), que proporcionan estándares y criterios ampliamente aceptados en la industria de la construcción. Algunos puntos a destacar sobre la utilización de estas normativas son:
+\begin{enumerate}
+    \item  \textbf{ACI (American Concrete Institute)}: Se utilizarán las especificaciones y criterios de diseño de la ACI 19 para el diseño de elementos de concreto, como columnas, vigas, losas y cimentaciones. 
+    
+    La ACI  proporciona recomendaciones detalladas sobre la resistencia del concreto, la disposición de refuerzos, los factores de seguridad y otros aspectos relevantes para garantizar la seguridad y durabilidad de las estructuras de concreto.
+    
+    \item \textbf{AISC (American Institute of Steel Construction)}: Se seguirán las normativas y estándares de la AISC para el diseño de elementos estructurales de acero, incluyendo vigas, columnas, conexiones y sistemas de arriostramiento.
+    
+    La AISC establece criterios para la selección de perfiles estructurales, el diseño de conexiones soldadas y atornilladas, así como otros aspectos relacionados con la resistencia y estabilidad de las estructuras de acero.
+    Al integrar normativas como la ACI 19 y la AISC en el proceso de diseño y cálculo estructural, se garantiza que la estructura cumpla con estándares de calidad y seguridad reconocidos a nivel internacional, además de los requisitos locales establecidos por la Norma Ecuatoriana de la Construcción NEC-15. Esta combinación de normativas permite obtener diseños estructurales robustos y confiables que se adecuan a las condiciones y exigencias específicas del proyecto en Cojitambo, Azogues.
+\end{enumerate}
+
+\section{Descripción del diseño estructural}
+faltaaaaaaaaaaaaaaaaa
+
+\section{Cargas y Combinaciones}
+La NEC15 establece que en general las contrucciones deberán diseñarse para resistir las 
+combinacionesd de cargas permanentes, cargas variables y cargas accideantales.
+
+%INICIA SECCION CARGAS, OBTENIDO CON FUNCIONES DE PYTHON
+
+
+
+\subsection{Cargas Permanentes}
+Las cargas permanentes consideradas para el proyecto son:
+\begin{enumerate}
+    \item Fibrocemento = 0.16 KN/m
+    \item Acero en frío = 0.08 KN/m
+    \item Acero en caliente = 1.2 KN/m
+    \item Instalaciones = 1 KN/m
+    \item Cielo Raso = 0.5 KN/m
+\end{enumerate}
+
+\end{document}
