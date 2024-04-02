@@ -1,4 +1,3 @@
-from cargas import CargasNEC15
 from jinja2 import Template
 
 # Calculo de cargas permanentes en el proyecto
@@ -22,22 +21,15 @@ CIELO_RASO = 0.5  # kN/m2
 
 CARGA_MUERTA = FIBROCEMENTO + ACERO_EN_FRIO + ACERO_EN_CALIENTE + INSTALACIONES_HI_ELEC + CIELO_RASO
 
-
-# Crear una instancia de la clase CargasNEC15
-cargas = CargasNEC15()
-
-# Llamar al método cargas_permanente
-#cargas_permanentes = cargas.cargas_permanente()
-
-latex_template = """
+latex_template = r"""
 \subsection{Cargas Permanentes}
 Las cargas permanentes consideradas para el proyecto son:
 \begin{enumerate}
-    \item Fibrocemento = {{FIBROCEMENTO}} KN/m
-    \item Acero en frío = {{ACERO_EN_FRIO}} KN/m
-    \item Acero en caliente = {{ACERO_EN_CALIENTE}} KN/m
-    \item Instalaciones = {{INSTALACIONES_HI_ELEC}} KN/m
-    \item Cielo Raso = {{CIELO_RASO}} KN/m
+    \item[\textbullet] Fibrocemento = {{FIBROCEMENTO}} $KN/m^2$
+    \item[\textbullet] Acero en frío = {{ACERO_EN_FRIO}} $KN/m^2$
+    \item[\textbullet] Acero en caliente = {{ACERO_EN_CALIENTE}} $KN/m^2$
+    \item[\textbullet] Instalaciones = {{INSTALACIONES_HI_ELEC}} $KN/m^2$
+    \item[\textbullet] Cielo Raso = {{CIELO_RASO}} $KN/m^2$
 
 \end{enumerate}
 """
@@ -58,5 +50,8 @@ with open(file_path, "a") as f:
     f.write(latex_output)
 
 print("Archivo LaTeX generado exitosamente:", file_path)
+print("Recuerda revisar que '/end{document}' se encuentre al final del archivo")
+print("También que los caracteres latinos y tildes")
+
 
 
