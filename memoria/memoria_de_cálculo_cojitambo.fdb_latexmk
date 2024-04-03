@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712093247 "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" "memoria_de_cálculo_cojitambo.pdf" "memoria_de_cálculo_cojitambo" 1712093248 0
+["pdflatex"] 1712172228 "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" "memoria_de_cálculo_cojitambo.pdf" "memoria_de_cálculo_cojitambo" 1712172230 0
   "C:/Program Files/MiKTeX/tex/latex/pagecolor/pagecolor.sty" 1681820886 9888 bce9a9132a3f756ede24729ac30ff1e9 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710187107 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1693247773 25420 46e64b6e39f731302c248c593a0ca848 ""
@@ -8,6 +8,7 @@
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2488.pk" 1693249852 72288 354b86bcd308d7acf2e36eeaab014875 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1693247652 23808 3dbf5dc1dd43e895f07ca5a7a1bf9bb3 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk" 1691787546 34320 40db26e7d2f056e4852c29febecefa6f ""
+  "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1712163146 11548 0c466fb0cfb402bb4919d17b3be910f7 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1711922630 24225046 27d9ea845d60d2606f7b23e0abc82e09 ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993061956 3200 328792ff19833a39406f06fa0555a6dc ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
@@ -17,6 +18,7 @@
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm2488.tfm" 993062132 3184 93c67f4c0884ba9e31b75d469978f63b ""
+  "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -157,10 +159,10 @@
   "C:/Users/joftv/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/joftv/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "ICONO2i.png" 1700242686 46720 4c6917caa499ba5d2b4f3797b91684f7 ""
-  "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" 1712093246 8848 7a98b9ab8ff9c3e6fe3b18a8f28a1a37 ""
-  "memoria_de_cálculo_cojitambo.aux" 1712093248 1112 320655d1d529ad461f40cb1c5d943366 "pdflatex"
-  "memoria_de_cálculo_cojitambo.out" 1712093248 986 6015826c53a5a6702d015d79b4b04108 "pdflatex"
-  "memoria_de_cálculo_cojitambo.tex" 1712093246 8848 7a98b9ab8ff9c3e6fe3b18a8f28a1a37 ""
+  "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" 1712172225 8913 7225694df02719ee351adad1b8033111 ""
+  "memoria_de_cálculo_cojitambo.aux" 1712172229 1112 320655d1d529ad461f40cb1c5d943366 "pdflatex"
+  "memoria_de_cálculo_cojitambo.out" 1712172229 986 6015826c53a5a6702d015d79b4b04108 "pdflatex"
+  "memoria_de_cálculo_cojitambo.tex" 1712172225 8913 7225694df02719ee351adad1b8033111 ""
   (generated)
   "memoria_de_cálculo_cojitambo.aux"
   "memoria_de_cálculo_cojitambo.log"

@@ -77,7 +77,7 @@ class EspectroNEC:
         
         import numpy as np
 
-        valores = 100
+        valores = 1000
         Tc = self.tc()
         x_values_1 = np.linspace(0, Tc, valores)
         meceta = self.n * self.Z * self.Fa
@@ -96,21 +96,30 @@ class EspectroNEC:
     def graficar_espectro(self):
         
         import matplotlib.pyplot as plt
+        import os
        
-        
-
         x_values, y_values = self.espectro()
 
         # Crea el gráfico
-        plt.plot(x_values, y_values, color = 'blue')
+        plt.plot(x_values, y_values, color = 'blue', linewidth=0.5)
 
         # Agrega etiquetas y título al gráfico
-        plt.xlabel('T')
-        plt.ylabel('S(a)g')
+        plt.xlabel('T(seg)')
+        plt.ylabel('Sa(g)')
         plt.title('Espectro sísmico elástico de aceleraciones')
 
         # Agrega una leyenda para identificar cada función
-        plt.legend()
+        plt.legend(['Espectro'])
+
+        # Agrega cuadrículas al gráfico
+        plt.grid(True)
+
+        # Guardar la imagen
+        ruta_completa = os.path.join(r"C:\Users\joftv\OneDrive\Documentos\MAMPRO\Proyectos\Casa Cojitambo\EST\API\memoria\imagenes", "espectro.png")
+        plt.savefig(ruta_completa)
+
+        # Cierra la figura para liberar recursos
+        plt.close()
 
         return plt.show()
     
@@ -149,6 +158,5 @@ class EspectroNEC:
             print(f"Los puntos se han guardado en {archivo} correctamente.")
         except Exception as e:
             print(f"Error al guardar los puntos en {archivo}: {e}")
-
 
 

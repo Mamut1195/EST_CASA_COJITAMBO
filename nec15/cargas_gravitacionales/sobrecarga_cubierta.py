@@ -9,7 +9,7 @@ la carga de cubierta es de {{SOBRECARGA_CUBIERTA}}
 
 """
 
-template = Template(latex_template)#
+template = Template(latex_template)
 
 # Rellena la plantilla con el valor de la variable
 latex_output = template.render(SOBRECARGA_CUBIERTA = SOBRECARGA_CUBIERTA)
