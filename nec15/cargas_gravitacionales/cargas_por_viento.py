@@ -34,7 +34,7 @@ sotavento = 0.5 * DENSIDAD_DEL_AIRE * (velocidad_corregida ** 2) * c_e_sotavento
 SOTAVENTO = sotavento * 0.001 #kN/m2
 
 latex_template = r"""
-\subsection{Cargas Por viento}
+\section{Cargas Por viento}
 Para obtener las cargas por viento primero hay que calcular la velocidad del viento. Para esto la 
 NEC nos da la siguiente f\'ormula: 
 $$V_b = V \cdot \alpha$$
@@ -45,7 +45,7 @@ $V_b$: Velocidad corregida del viento en $m/s$
 
 $V$: Velocidad instant\'anea m\'axima del viento en m/s, registrada a 10 m de altura sobre el terreno.
 
-\begin{table}
+\begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
     \hline
@@ -57,7 +57,7 @@ $V$: Velocidad instant\'anea m\'axima del viento en m/s, registrada a 10 m de al
     \end{tabular}
 \end{table}
 
-\subsubsection{Presi\'on del viento}
+\subsection{Presi\'on del viento}
 La NEC establece la siguiente f\'ormula para el c\'alculo de la presi\'on del viento:
 $$P = \frac{1}{2} \rho V_b^2 c_e c_f$$
 
@@ -75,7 +75,7 @@ $c_f$ : Coeficiente de forma
 Con la f\'ormula se obtienen los valores del Barlovento y Sotavento, cuyos valores son presentados
 en las siguientes tablas.
 
-\begin{table}
+\begin{table}[h]
     \centering
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
@@ -88,7 +88,7 @@ en las siguientes tablas.
     }
 \end{table}
 
-\begin{table}
+\begin{table}[h]
     \centering
     \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}

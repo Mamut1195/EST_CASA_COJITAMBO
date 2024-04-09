@@ -1,21 +1,10 @@
 from jinja2 import Template
 
-from cargas_gravitacionales.carga_permanente import CARGA_MUERTA
-from cargas_gravitacionales.cargas_de_granizo import CARGA_DE_GRANIZO
-from cargas_gravitacionales.cargas_por_viento import BARLOVENTO, SOTAVENTO
-from cargas_gravitacionales.sobrecarga_cubierta import SOBRECARGA_CUBIERTA
-from cargas_gravitacionales.cargas import CargasNEC15
+from carga_permanente import CARGA_MUERTA
+from cargas_de_granizo import CARGA_DE_GRANIZO
+from cargas_por_viento import BARLOVENTO, SOTAVENTO
+from sobrecarga_cubierta import SOBRECARGA_CUBIERTA
 
-CARGA_MUERTA = CARGA_MUERTA
-CARGA_DE_GRANIZO = CARGA_DE_GRANIZO
-BARLOVENTO = BARLOVENTO
-SOTAVENTO = SOTAVENTO
-SOBRECARGA_CUBIERTA = SOBRECARGA_CUBIERTA
-diccionario_de_cargas = CargasNEC15()
-diccionario_de_cargas.add_to_dict_carga_permanente(CARGA_MUERTA)
-diccionario_de_cargas.add_to_dict_sobrecarga_cubierta(SOBRECARGA_CUBIERTA)
-diccionario_de_cargas.add_to_dict_carga_de_barlovento(BARLOVENTO)
-diccionario_de_cargas.add_to_dict_carga_de_sotavento(SOTAVENTO)
 
 
 latex_template = r"""
@@ -36,37 +25,39 @@ para que la resistencia de dise\~no iguale o supere las siguientes combinaciones
 En donde cada s\'imbolo significa:
 
 \begin{enumerate}
-    \item \textbf{D} - Carga permanente
-    \item \textbf{E} - Carga de sismo
-    \item \textbf{L} - Sobrecarga (carga viva)
-    \item \textbf{Lr} - Sobrecarga cubierta (carga viva)
-    \item \textbf{S} - Carga de granizo
-    \item \textbf{W} - Carga de viento
+    \item[\textbullet] \textbf{D} - Carga permanente
+    \item[\textbullet] \textbf{E} - Carga de sismo
+    \item[\textbullet] \textbf{L} - Sobrecarga (carga viva)
+    \item[\textbullet] \textbf{Lr} - Sobrecarga cubierta (carga viva)
+    \item[\textbullet] \textbf{S} - Carga de granizo
+    \item[\textbullet] \textbf{W} - Carga de viento
 \end{enumerate}
 
 Las cargas para el proyecto se presentan en la siguiente tabla:
 
 \begin{table}[h]
     \centering
-    \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|}
         \hline
         \textbf{Carga Muerta} & \textbf{Sobrecarga Cubierta} & \textbf{Barlovento} & \textbf{Sotavento} & \textbf{Granizo} \\
         \hline
-        {{ CARGA_MUERTA }} & {{ SOBRECARGA_CUBIERTA }} & {{ BARLOVENTO }} & {{ SOTAVENTO }} & {{ CARGA_DE_GRANIZO }}\\
+        {{ CARGA_MUERTA_1 }} & {{ SOBRECARGA_CUBIERTA_1 }} & {{ BARLOVENTO_1 }} & {{ SOTAVENTO_1 }} & {{ CARGA_DE_GRANIZO_1 }}\\
         \hline
     \end{tabular}
-    }
 \end{table}
 
-Las cargas sísmcas se calcular\'an con ayuda del programa ETABS.
+Las cargas s\'ismcas se calcular\'an con ayuda del programa ETABS.
 El proyecto por sus carater\'isticas arquitect\'onicas no cuenta con cargas vivas.
 """
 
 template = Template(latex_template)
 
 # Rellena la plantilla con el valor de la variable
-latex_output = template.render(  )
+latex_output = template.render(CARGA_MUERTA_1 = CARGA_MUERTA,
+                               SOBRECARGA_CUBIERTA_1 = SOBRECARGA_CUBIERTA,
+                               BARLOVENTO_1 = BARLOVENTO,
+                               SOTAVENTO_1 = SOTAVENTO,
+                               CARGA_DE_GRANIZO_1 = CARGA_DE_GRANIZO )
 
 # Abre el archivo en modo de escritura, pero con la opción de añadir
 file_path = r"memoria\memoria_de_cálculo_cojitambo.tex"

@@ -3,8 +3,8 @@ from jinja2 import Template
 SOBRECARGA_CUBIERTA = 0.70 #KN/m2
 
 latex_template = r"""
-\subsection{Cargas Variables}
-Para el proyecto unicamente existen sobrecargas variables de cubierta. La NEC señala que
+\section{Cargas Variables}
+Para el proyecto unicamente existen sobrecargas variables de cubierta. La NEC se\~{n}ala que
 la carga de cubierta es de {{SOBRECARGA_CUBIERTA}}
 
 """

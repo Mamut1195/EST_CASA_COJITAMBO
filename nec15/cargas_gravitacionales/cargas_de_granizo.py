@@ -13,7 +13,7 @@ CARGA_DE_GRANIZO = PESO_ESP_GRANIZO * ALTURA_DE_ACUMULACION #kg/m2
 CARGA_DE_GRANIZO = CARGA_DE_GRANIZO/10 #KN/m2
 
 latex_template = r"""
-\subsection{Cargas de granizo}
+\section{Cargas de granizo}
 Seg\'un la NEC se debe considerar una acumulaci\'on de granizo en un corto periodo de tiempo.
 Para cubiertas con pendientes menores de 15\% se debe considerar una carga m\'inima de 0.50 $kN/m^2$; 
 para cubiertas con pendientes menores del 5\% se debe considerar 1.0 kN/m2. Se determinan de la siguiente forma:

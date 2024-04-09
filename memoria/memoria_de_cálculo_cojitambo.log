@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2024.3.31)  3 APR 2024 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2024.3.31)  9 APR 2024 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,19 +7,20 @@ entering extended mode
 (c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -31,12 +32,12 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count195
+\babel@savecnt=\count196
 \U@D=\dimen141
 \l@unhyphenated=\language79
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count196
+\bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
@@ -46,7 +47,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
 ) (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks19
-\es@quotdepth=\count197
+\es@quotdepth=\count198
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -118,14 +119,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen155
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count198
-\c@pgf@countb=\count199
-\c@pgf@countc=\count266
-\c@pgf@countd=\count267
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
 \t@pgf@toka=\toks25
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count268
+\pgf@sys@id@count=\count269
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -136,21 +137,21 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count269
-\pgfsyssoftpath@bigbuffer@items=\count270
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen156
-\pgfmath@count=\count271
+\pgfmath@count=\count272
 \pgfmath@box=\box52
 \pgfmath@toks=\toks28
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count272
+\c@pgfmathroundto@lastzeros=\count273
 )) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen157
@@ -180,7 +181,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count273
+\pgf@picture@serial@count=\count274
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen175
@@ -201,8 +202,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen180
-\pgf@sys@shading@range@num=\count274
-\pgf@shadingcount=\count275
+\pgf@sys@shading@range@num=\count275
+\pgf@shadingcount=\count276
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -237,7 +238,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count276
+\pgf@plot@mark@count=\count277
 \pgfplotmarksize=\dimen185
 )
 \tikz@lastx=\dimen186
@@ -252,17 +253,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count277
-\tikznumberofchildren=\count278
-\tikznumberofcurrentchild=\count279
-\tikz@fig@count=\count280
+\tikztreelevel=\count278
+\tikznumberofchildren=\count279
+\tikznumberofcurrentchild=\count280
+\tikz@fig@count=\count281
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count281
-\pgfmatrixcurrentcolumn=\count282
-\pgf@matrix@numberofcolumns=\count283
+\pgfmatrixcurrentrow=\count282
+\pgfmatrixcurrentcolumn=\count283
+\pgf@matrix@numberofcolumns=\count284
 )
-\tikz@expandcount=\count284
+\tikz@expandcount=\count285
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Program Files\MiKTeX\tex/latex/pagecolor\pagecolor.sty
@@ -279,8 +280,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen194
 \enit@toks=\toks33
 \enit@inbox=\box62
-\enit@count@id=\count285
-\enitdp@description=\count286
+\enit@count@id=\count286
+\enitdp@description=\count287
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
@@ -298,7 +299,7 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen199
 \TX@target=\dimen256
 \TX@delta=\dimen257
-\TX@cols=\count287
+\TX@cols=\count288
 \TX@ftn=\toks35
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
@@ -317,14 +318,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -337,20 +338,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen260
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count293
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip16
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
 \tag@help=\toks37
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
 \andhelp@=\toks38
 \eqnshift@=\dimen261
 \alignsep@=\dimen262
@@ -375,7 +376,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count300
+\c@float@type=\count301
 \float@exts=\toks41
 \float@box=\box67
 \@float@everytoks=\toks42
@@ -408,14 +409,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count302
+\etb@tempcnta=\count303
 )
 \@linkdim=\dimen267
-\Hy@linkcounter=\count303
-\Hy@pagecounter=\count304
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -423,7 +424,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count305
+\Hy@SavedSpaceFactor=\count306
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -436,7 +437,7 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count306
+\c@Hy@tempcnt=\count307
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -448,7 +449,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count307
+\Fld@menulength=\count308
 \Field@Width=\dimen269
 \Fld@charsize=\dimen270
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -462,9 +463,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count308
-\c@Item=\count309
-\c@Hfootnote=\count310
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -473,8 +474,8 @@ File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count311
-\c@bookmark@seq@number=\count312
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
  (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -488,9 +489,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count313
-\Gm@cntv=\count314
-\c@Gm@tempcnt=\count315
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
 \Gm@bindingoffset=\dimen271
 \Gm@wd@mp=\dimen272
 \Gm@odd@mp=\dimen273
@@ -502,7 +503,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks43
  (C:\Users\joftv\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
+\l__color_backend_stack_int=\count317
 \l__pdf_internal_box=\box69
 ) (memoria_de_cálculo_cojitambo.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -510,38 +511,38 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `memoria_de_cálculo_cojitambo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
+\scratchcounter=\count318
 \scratchdimen=\dimen279
 \scratchbox=\box70
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\nofMPsegments=\count319
+\nofMParguments=\count320
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count320
+\MPscratchCnt=\count321
 \MPscratchDim=\dimen280
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks45
 ) (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -549,7 +550,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 37.
  (memoria_de_cálculo_cojitambo.out) (memoria_de_cálculo_cojitambo.out)
 \@outlinefile=\write4
 \openout4 = `memoria_de_cálculo_cojitambo.out'.
@@ -589,27 +590,99 @@ Package hyperref Info: Link coloring OFF on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<ICONO2i.png, id=30, 120.45pt x 120.45pt>
+<ICONO2i.png, id=78, 120.45pt x 120.45pt>
 File: ICONO2i.png Graphic file (type png)
 <use ICONO2i.png>
-Package pdftex.def Info: ICONO2i.png  used on input line 38.
+Package pdftex.def Info: ICONO2i.png  used on input line 42.
 (pdftex.def)             Requested size: 42.67912pt x 42.67825pt.
 [1
 
 {C:/Users/joftv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ICONO2i.png>]
+Cap\'{\i }tulo 1.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 \end{enumerate}
-                     [1]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 116.
- (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+l.85     \item I
+                ntegrar consideraciones sísmicas específicas para la regi�... [1
+
+] [2]
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120.
+(C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 116.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120.
  (C:\Users\joftv\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2] (memoria_de_cálculo_cojitambo.aux
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagenes/espectro.png, id=125, 462.528pt x 346.896pt>
+File: imagenes/espectro.png Graphic file (type png)
+<use imagenes/espectro.png>
+Package pdftex.def Info: imagenes/espectro.png  used on input line 257.
+(pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./imagenes/espectro.png>]
+Cap\'{\i }tulo 3.
+[6
+
+]
+<imagenes/irregularidad_torsional.png, id=152, 164.11313pt x 105.39375pt>
+File: imagenes/irregularidad_torsional.png Graphic file (type png)
+<use imagenes/irregularidad_torsional.png>
+Package pdftex.def Info: imagenes/irregularidad_torsional.png  used on input line 353.
+(pdftex.def)             Requested size: 67.94241pt x 43.63304pt.
+<imagenes/retrocesos_excesivos_en_las_esquinas.png, id=153, 159.59625pt x 109.1578pt>
+File: imagenes/retrocesos_excesivos_en_las_esquinas.png Graphic file (type png)
+<use imagenes/retrocesos_excesivos_en_las_esquinas.png>
+Package pdftex.def Info: imagenes/retrocesos_excesivos_en_las_esquinas.png  used on input line 364.
+(pdftex.def)             Requested size: 67.94241pt x 46.47057pt.
+<imagenes/discontinuidades_en_el_sistema_de_piso.png, id=154, 170.13562pt x 231.86626pt>
+File: imagenes/discontinuidades_en_el_sistema_de_piso.png Graphic file (type png)
+<use imagenes/discontinuidades_en_el_sistema_de_piso.png>
+Package pdftex.def Info: imagenes/discontinuidades_en_el_sistema_de_piso.png  used on input line 376.
+(pdftex.def)             Requested size: 67.94241pt x 92.59271pt.
+<imagenes/ejes_estructurales_no_paralelos.png, id=155, 161.10187pt x 88.07906pt>
+File: imagenes/ejes_estructurales_no_paralelos.png Graphic file (type png)
+<use imagenes/ejes_estructurales_no_paralelos.png>
+Package pdftex.def Info: imagenes/ejes_estructurales_no_paralelos.png  used on input line 385.
+(pdftex.def)             Requested size: 67.94241pt x 37.14749pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./imagenes/irregularidad_torsional.png> <./imagenes/retrocesos_excesivos_en_las_esquinas.png> <./imagenes/discontinuidades_en_el_sistema_de_piso.png>]
+<imagenes/piso_flexible.png, id=168, 139.27031pt x 194.22563pt>
+File: imagenes/piso_flexible.png Graphic file (type png)
+<use imagenes/piso_flexible.png>
+Package pdftex.def Info: imagenes/piso_flexible.png  used on input line 398.
+(pdftex.def)             Requested size: 67.94241pt x 94.75351pt.
+<imagenes/distribucion_de_masa.png, id=169, 139.27031pt x 191.21437pt>
+File: imagenes/distribucion_de_masa.png Graphic file (type png)
+<use imagenes/distribucion_de_masa.png>
+Package pdftex.def Info: imagenes/distribucion_de_masa.png  used on input line 408.
+(pdftex.def)             Requested size: 67.94241pt x 93.28445pt.
+<imagenes/irregularidad_geometrica.png, id=170, 127.22531pt x 209.28188pt>
+File: imagenes/irregularidad_geometrica.png Graphic file (type png)
+<use imagenes/irregularidad_geometrica.png>
+Package pdftex.def Info: imagenes/irregularidad_geometrica.png  used on input line 418.
+(pdftex.def)             Requested size: 67.94241pt x 111.76828pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./imagenes/ejes_estructurales_no_paralelos.png> <./imagenes/piso_flexible.png> <./imagenes/distribucion_de_masa.png>] [9 <./imagenes/irregularidad_geometrica.png>] (memoria_de_cálculo_cojitambo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -618,20 +691,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `memoria_de_cálculo_cojitambo.out' has not changed.
-(rerunfilecheck)             Checksum: 6015826C53A5A6702D015D79B4B04108;986.
+(rerunfilecheck)             Checksum: 9EA0C07EA39FEF69BCDF3674A354C6BC;3407.
  ) 
 Here is how much of TeX's memory you used:
- 22758 strings out of 474486
- 420165 string characters out of 5743755
- 1937542 words of memory out of 5000000
- 44650 multiletter control sequences out of 15000+600000
- 566271 words of font info for 53 fonts, out of 8000000 for 9000
+ 22905 strings out of 474486
+ 423777 string characters out of 5743755
+ 1939542 words of memory out of 5000000
+ 44757 multiletter control sequences out of 15000+600000
+ 569355 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,630b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on memoria_de_cálculo_cojitambo.pdf (3 pages, 134825 bytes).
+ 102i,10n,107p,630b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\joftv\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joftv/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on memoria_de_cálculo_cojitambo.pdf (10 pages, 317554 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

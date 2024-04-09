@@ -23,8 +23,9 @@ from jinja2 import Template
 SOBRECARGA_CUBIERTA = 0.70 #KN/m2
 
 latex_template = r"""
-\subsection{Espectro s\'ismico}
-El espectro s\'ismoco se construye a partir de los datos de la geolog\'ia local determinados por el estudios de suelos.
+\section{Carga s\'ismica}
+Para obtener el valor de la carga s\'ismica se construye el espectro a partir de los datos de la geolog\'ia local determinados
+ por el estudios de suelos.
 De esta manera los pa\'arametros que permiten la construcci\'on del espectro de acuerdo a la NEC son:
 
 \begin{enumerate}
@@ -39,7 +40,6 @@ Los valores de los par\'ametros se muestran en la siguiente tabla:
 
 \begin{table}[h]
     \centering
-    \resizebox{\textwidth}{!}{
     \begin{tabular}{|c|c|c|c|c|c|c|c|}
         \hline
         \textbf{ZONA SISMICA} & \textbf{Perfil suelo} & \textbf{Fa} & \textbf{Fd} & \textbf{Fs} & \textbf{Z} & \textbf{r} & \textbf{n}\\
@@ -47,7 +47,6 @@ Los valores de los par\'ametros se muestran en la siguiente tabla:
         {{ ZONA_SISMICA }} & {{ PERFIL_DEL_SUELO }} & {{ Fa }} & {{ Fd }} & {{ Fs }} & {{ Z }} & {{ r }} & {{ n }}\\
         \hline
     \end{tabular}
-    }
 \end{table}
 
 Con los valores presentados en la tabla se grafica el espectro.
