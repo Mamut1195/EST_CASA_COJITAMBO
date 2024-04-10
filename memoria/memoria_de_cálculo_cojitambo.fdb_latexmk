@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1712701306 "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" "memoria_de_cálculo_cojitambo.pdf" "memoria_de_cálculo_cojitambo" 1712701309 0
+["pdflatex"] 1712719039 "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" "memoria_de_cálculo_cojitambo.pdf" "memoria_de_cálculo_cojitambo" 1712719041 0
   "C:/Program Files/MiKTeX/tex/latex/pagecolor/pagecolor.sty" 1681820886 9888 bce9a9132a3f756ede24729ac30ff1e9 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710187107 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/joftv/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1693247773 25420 46e64b6e39f731302c248c593a0ca848 ""
@@ -169,7 +169,7 @@
   "C:/Users/joftv/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/joftv/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "ICONO2i.png" 1700242686 46720 4c6917caa499ba5d2b4f3797b91684f7 ""
-  "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" 1712701302 21836 51771cac6e527ad3a1cb0670c384f4c3 ""
+  "c:/Users/joftv/OneDrive/Documentos/MAMPRO/Proyectos/Casa Cojitambo/EST/API/memoria/memoria_de_cálculo_cojitambo.tex" 1712719039 22783 581b443157042f4c7d2d5ab8f189a1e6 ""
   "imagenes/discontinuidades_en_el_sistema_de_piso.png" 1712691865 33270 31477368ecbd49f4e2057aa74395fcf2 ""
   "imagenes/distribucion_de_masa.png" 1712693929 4133 12c0f2cc856206ebfe94a67b781f4715 ""
   "imagenes/ejes_estructurales_no_paralelos.png" 1712691916 7586 36c749af83d0b72c0b058ee34e4d0c38 ""
@@ -178,9 +178,9 @@
   "imagenes/irregularidad_torsional.png" 1712691753 14576 37ea02d2d3991382effab4915bd4ef4f ""
   "imagenes/piso_flexible.png" 1712693856 3868 d94222e32852cdbb0412421cd89a2ada ""
   "imagenes/retrocesos_excesivos_en_las_esquinas.png" 1712691795 15059 e08c1e6dc3e57c685379c6a124fcd81a ""
-  "memoria_de_cálculo_cojitambo.aux" 1712701309 3954 aa418d79f54c2a19823ef7a6fbf3adbb "pdflatex"
-  "memoria_de_cálculo_cojitambo.out" 1712701309 3407 9ea0c07ea39fef69bcdf3674a354c6bc "pdflatex"
-  "memoria_de_cálculo_cojitambo.tex" 1712701302 21836 51771cac6e527ad3a1cb0670c384f4c3 ""
+  "memoria_de_cálculo_cojitambo.aux" 1712719040 3953 d27ae90d734ca721afb6871542f3b610 "pdflatex"
+  "memoria_de_cálculo_cojitambo.out" 1712719040 3407 9ea0c07ea39fef69bcdf3674a354c6bc "pdflatex"
+  "memoria_de_cálculo_cojitambo.tex" 1712719039 22783 581b443157042f4c7d2d5ab8f189a1e6 ""
   (generated)
   "memoria_de_cálculo_cojitambo.aux"
   "memoria_de_cálculo_cojitambo.log"

@@ -22,35 +22,50 @@ irregularidades en planta, irregularidades en elevaci\'on.
 \subsubsection{Irregularidad Torsional }
 Existe irregularidad por torsi\'on, cuando la m\'axima deriva de piso de un extremo de la estructura calculada incluyendo la torsi\'on accidental y medida perpendicularmente a un eje determinado, es mayor que 1,2 veces la 
 deriva promedio de los extremos de la estructura con respecto al mismo eje de referencia.
-$$\vartriangle = 1.2 \cdot \dfrac{\vartriangle 1 + \vartriangle 2}{2}$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/irregularidad_torsional.png}
-\end{figure}
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $\vartriangle = 1.2 \cdot \dfrac{\vartriangle 1 + \vartriangle 2}{2}$
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.75\textwidth]{imagenes/irregularidad_torsional.png}
+    \end{minipage}
+\end{center}
 
 \subsubsection{Retrocesos excesivos en las esquinas }
 La configuraci\'on de una estructura se considera irregular cuando presenta entrantes excesivos en sus esquinas. 
 Un entrante en una esquina se considera excesivo cuando las proyecciones de la estructura, a ambos lados del entrante, 
 son mayores que el 15\% de la dimensi\'on de la planta de la estructura en la direcci\'on del entrante.
-$$A > 0.15B y C > 0.15D$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/retrocesos_excesivos_en_las_esquinas.png}
-\end{figure}
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $$A > 0.15B \quad \text{y} \quad C > 0.15D$$
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{imagenes/retrocesos_excesivos_en_las_esquinas.png}
+    \end{minipage}
+\end{center}
 
 \subsubsection{Discontinuidades en el sistema de piso }
 La configuraci\'on de la estructura se considera irregular cuando el sistema de piso tiene discontinuidades apreciables o variaciones 
 significativas en su rigidez, incluyendo las causadas por aberturas, entrantes o huecos, con \'areas mayores al 50\% del 
 \'area total del piso o con cambios en la rigidez en el plano del sistema de piso de m\'as del 50\% entre niveles consecutivos.
-$$CxD > 0.5AxB $$
-$$[CxD + CxE] > 0.5AxB$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/discontinuidades_en_el_sistema_de_piso.png}
-\end{figure}
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $$CxD > 0.5AxB $$
+        $$[C \times D + C \times E] > 0.5 \times A \times B$$
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{imagenes/discontinuidades_en_el_sistema_de_piso.png}
+    \end{minipage}
+\end{center}
 
 \subsubsection{Ejes estrucutrales no paralelos }
 La estructura se considera irregular cuando los ejes estructurales no son paralelos o sim\'etricos 
@@ -58,7 +73,7 @@ con respecto a los ejes ortogonales principales de la estructura.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/ejes_estructurales_no_paralelos.png}
+    \includegraphics[width=0.3\textwidth]{imagenes/ejes_estructurales_no_paralelos.png}
 \end{figure}
 
 \subsection{Irregularidades en elevaci\'on }
@@ -66,33 +81,48 @@ con respecto a los ejes ortogonales principales de la estructura.
 \subsubsection{Piso flexible }
 La estructura se considera irregular cuando la rigidez lateral de un piso es menor que el 70\% de la rigidez 
 lateral del piso superior o menor que el 80 \% del promedio de la rigidez lateral de los tres pisos superiores.
-$$K_C < 0.70K_D$$
-$$K_C < 0.80 \cdot \dfrac{K_D + K_E + K_F}{3}$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/piso_flexible.png}
-\end{figure}
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $$K_C < 0.70K_D$$
+        $$K_C < 0.80 \cdot \dfrac{K_D + K_E + K_F}{3}$$
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.3\textwidth]{imagenes/piso_flexible.png}
+    \end{minipage}
+\end{center}
 
 \subsubsection{Distribuci\'on de masa }
 La estructura se considera irregular cuando la masa de cualquier piso es mayor que 1,5 veces la masa 
 de uno de los pisos adyacentes, con excepci\'on del piso de cubierta que sea m\'as liviano que el piso inferior.
-$$m_D = 1.50m_E \text{ \'o } m _D > 1.50 m_C$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/distribucion_de_masa.png}
-\end{figure}
-
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $$m_D = 1.50m_E \text{ \'o } m _D > 1.50 m_C$$
+    \end{minipage}%
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.3\textwidth]{imagenes/distribucion_de_masa.png}
+    \end{minipage}
+\end{center}
+    
 \subsubsection{Irregularidad geom\'etrica }
 La estructura se considera irregular cuando la dimensi\'on en planta del sistema resistente en cualquier piso 
 es mayor que 1,3 veces la misma dimensi\'on en un piso adyacente, exceptuando el caso de los altillos de un solo piso.
-$$a > 1.3b$$
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.15\textwidth]{imagenes/irregularidad_geometrica.png}
-\end{figure}
+\begin{center}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        $$a > 1.3b$$
+    \end{minipage}
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.3\textwidth]{imagenes/irregularidad_geometrica.png}
+    \end{minipage}
+\end{center}
 """
 
 template = Template(latex_template)
